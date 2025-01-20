@@ -1,0 +1,30 @@
+textarea {
+    overflow: hidden;
+    min-height: 50px;
+    resize: none;
+}
+
+.thumbnail {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.thumbnail:hover {
+    background-color: #0c3a68;
+}
+
+.poster-placeholder {
+    width: 120px;
+    height: 68px;
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
